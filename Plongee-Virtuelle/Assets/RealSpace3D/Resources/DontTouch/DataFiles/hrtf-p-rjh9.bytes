@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfRealSpace3D_VirtualRoomPresets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RealSpace3D_VirtualRoomPresets>
+    <Type>Cathedral</Type>
+    <LeftWall>Marble</LeftWall>
+    <RightWall>Marble</RightWall>
+    <FrontWall>Marble</FrontWall>
+    <BackWall>Marble</BackWall>
+    <Ceiling>Marble</Ceiling>
+    <Floor>Marble</Floor>
+  </RealSpace3D_VirtualRoomPresets>
+  <RealSpace3D_VirtualRoomPresets>
+    <Type>Office</Type>
+    <LeftWall>Heavy Curtain</LeftWall>
+    <RightWall>Glass</RightWall>
+    <FrontWall>Plaster</FrontWall>
+    <BackWall>Plaster</BackWall>
+    <Ceiling>Plaster</Ceiling>
+    <Floor>Heavy Carpet</Floor>
+  </RealSpace3D_VirtualRoomPresets>
+  <RealSpace3D_VirtualRoomPresets>
+      <Type>Outside</Type>
+      <LeftWall>Air</LeftWall>
+      <RightWall>Air</RightWall>
+      <FrontWall>Air</FrontWall>
+      <BackWall>Air</BackWall>
+      <Ceiling>Air</Ceiling>
+      <Floor>Grass</Floor>
+  </RealSpace3D_VirtualRoomPresets>
+</ArrayOfRealSpace3D_VirtualRoomPresets>

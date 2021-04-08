@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfRealSpace3D_HRTFs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RealSpace3D_HRTFs>
+    <Filename>hrtf-cp048-r1</Filename>
+    <Description>Default</Description>
+  </RealSpace3D_HRTFs>
+  <RealSpace3D_HRTFs>
+    <Filename>hrtf-cp021-r1</Filename>
+    <Description>Bassy_LG_Ear</Description>
+  </RealSpace3D_HRTFs>
+  <RealSpace3D_HRTFs>
+    <Filename>hrtf-cp165-r1</Filename>
+    <Description>Bassy_SM_Ear</Description>
+  </RealSpace3D_HRTFs>
+  <RealSpace3D_HRTFs>
+    <Filename>hrtf-andre-r1</Filename>
+    <Description>Thin_LG_Ear</Description>
+  </RealSpace3D_HRTFs>
+  <RealSpace3D_HRTFs>
+    <Filename>hrtf-virgn-r1</Filename>
+    <Description>Thin_SM_Ear</Description>
+  </RealSpace3D_HRTFs>
+</ArrayOfRealSpace3D_HRTFs>

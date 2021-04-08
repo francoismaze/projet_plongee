@@ -1,0 +1,38 @@
+fileFormatVersion: 2
+guid: 6995e5f4125da4bd183d041c1e88ea91
+PluginImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  iconMap: {}
+  executionOrder:
+    RealSpace3D.RealSpace3D_AudioListener: -900
+    RealSpace3D.RealSpace3D_AudioSource: -700
+    RealSpace3D.RealSpace3D_AudioSource_SpatialParameters: -600
+    RealSpace3D.RealSpace3D_Occluder: -500
+    RealSpace3D.RealSpace3D_VirtualRoom: -800
+  defineConstraints: []
+  isPreloaded: 0
+  isOverridable: 0
+  isExplicitlyReferenced: 0
+  validateReferences: 1
+  platformData:
+  - first:
+      Any: 
+    second:
+      enabled: 1
+      settings: {}
+  - first:
+      Editor: Editor
+    second:
+      enabled: 0
+      settings:
+        DefaultValueInitialized: true
+  - first:
+      Windows Store Apps: WindowsStoreApps
+    second:
+      enabled: 0
+      settings:
+        CPU: AnyCPU
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

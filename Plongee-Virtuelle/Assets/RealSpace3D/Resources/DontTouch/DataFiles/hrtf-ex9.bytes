@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfRealSpace3D_HRTFs_Exposed xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RealSpace3D_HRTFs_Exposed>
+    <Expose>false</Expose>
+    <CustomHRTF_Selector>false</CustomHRTF_Selector>
+    <Description></Description>
+  </RealSpace3D_HRTFs_Exposed>
+</ArrayOfRealSpace3D_HRTFs_Exposed>

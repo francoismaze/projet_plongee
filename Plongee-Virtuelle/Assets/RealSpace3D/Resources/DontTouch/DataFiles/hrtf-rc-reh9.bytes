@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfRealSpace3D_ReflectionCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RealSpace3D_ReflectionCoefficients>
+    <ReflectionMaterial>Marble</ReflectionMaterial>
+    <Coefficient>0.95</Coefficient>
+  </RealSpace3D_ReflectionCoefficients>
+  <RealSpace3D_ReflectionCoefficients>
+    <ReflectionMaterial>Glazed Tile</ReflectionMaterial>
+    <Coefficient>0.95</Coefficient>
+  </RealSpace3D_ReflectionCoefficients>
+  <RealSpace3D_ReflectionCoefficients>
+      <ReflectionMaterial>Sealed Concrete</ReflectionMaterial>
+      <Coefficient>0.95</Coefficient>
+  </RealSpace3D_ReflectionCoefficients>
+  <RealSpace3D_ReflectionCoefficients>
+      <ReflectionMaterial>Polished Wood</ReflectionMaterial>
+      <Coefficient>0.90</Coefficient>
+  </RealSpace3D_ReflectionCoefficients>
+  <RealSpace3D_ReflectionCoefficients>
+      <ReflectionMaterial>Vinyl</ReflectionMaterial>
+      <Coefficient>0.90</Coefficient>
+  </RealSpace3D_ReflectionCoefficients>
+  <RealSpace3D_ReflectionCoefficients>
+      <ReflectionMaterial>Linoleum</ReflectionMaterial>
+      <Coefficient>0.90</Coefficient>
+  </RealSpace3D_ReflectionCoefficients>
+  <RealSpace3D_ReflectionCoefficients>
+      <ReflectionMaterial>Plaster</ReflectionMaterial>
+      <Coefficient>0.85</Coefficient>
+  </RealSpace3D_ReflectionCoefficients>
+  <RealSpace3D_ReflectionCoefficients>
+      <ReflectionMaterial>Painted Wood</ReflectionMaterial>
+      <Coefficient>0.85</Coefficient>
+  </RealSpace3D_ReflectionCoefficients>
+  <RealSpace3D_ReflectionCoefficients>
+      <ReflectionMaterial>Glass</ReflectionMaterial>
+      <Coefficient>0.80</Coefficient>
+  </RealSpace3D_ReflectionCoefficients>
+  <RealSpace3D_ReflectionCoefficients>
+      <ReflectionMaterial>Polycarbonate</ReflectionMaterial>
+      <Coefficient>0.80</Coefficient>
+  </RealSpace3D_ReflectionCoefficients>
+  <RealSpace3D_ReflectionCoefficients>
+      <ReflectionMaterial>Brick Wall</ReflectionMaterial>
+      <Coefficient>0.75</Coefficient>
+  </RealSpace3D_ReflectionCoefficients>
+  <RealSpace3D_ReflectionCoefficients>
+      <ReflectionMaterial>Rough Concrete</ReflectionMaterial>
+      <Coefficient>0.75</Coefficient>
+  </RealSpace3D_ReflectionCoefficients>
+  <RealSpace3D_ReflectionCoefficients>
+      <ReflectionMaterial>Acrylic Glass</ReflectionMaterial>
+      <Coefficient>0.75</Coefficient>
+  </RealSpace3D_ReflectionCoefficients>
+  <RealSpace3D_ReflectionCoefficients>
+      <ReflectionMaterial>Rubber</ReflectionMaterial>
+      <Coefficient>0.70</Coefficient>
+  </RealSpace3D_ReflectionCoefficients>
+  <RealSpace3D_ReflectionCoefficients>
+      <ReflectionMaterial>Fiberboard</ReflectionMaterial>
+      <Coefficient>0.70</Coefficient>
+  </RealSpace3D_ReflectionCoefficients>
+  <RealSpace3D_ReflectionCoefficients>
+      <ReflectionMaterial>Hardwood</ReflectionMaterial>
+      <Coefficient>0.70</Coefficient>
+  </RealSpace3D_ReflectionCoefficients>
+  <RealSpace3D_ReflectionCoefficients>
+      <ReflectionMaterial>Office Carpet</ReflectionMaterial>
+      <Coefficient>0.65</Coefficient>
+  </RealSpace3D_ReflectionCoefficients>
+  <RealSpace3D_ReflectionCoefficients>
+      <ReflectionMaterial>Expanded Polystyrene</ReflectionMaterial>
+      <Coefficient>0.60</Coefficient>
+  </RealSpace3D_ReflectionCoefficients>
+  <RealSpace3D_ReflectionCoefficients>
+      <ReflectionMaterial>Acoustic Tile</ReflectionMaterial>
+      <Coefficient>0.55</Coefficient>
+  </RealSpace3D_ReflectionCoefficients>
+  <RealSpace3D_ReflectionCoefficients>
+      <ReflectionMaterial>Leather Upholstery</ReflectionMaterial>
+      <Coefficient>0.50</Coefficient>
+  </RealSpace3D_ReflectionCoefficients>
+  <RealSpace3D_ReflectionCoefficients>
+      <ReflectionMaterial>Heavy Carpet</ReflectionMaterial>
+      <Coefficient>0.45</Coefficient>
+  </RealSpace3D_ReflectionCoefficients>
+  <RealSpace3D_ReflectionCoefficients>
+      <ReflectionMaterial>Tapestry</ReflectionMaterial>
+      <Coefficient>0.40</Coefficient>
+  </RealSpace3D_ReflectionCoefficients>
+  <RealSpace3D_ReflectionCoefficients>
+      <ReflectionMaterial>Asbestos</ReflectionMaterial>
+      <Coefficient>0.35</Coefficient>
+  </RealSpace3D_ReflectionCoefficients>
+  <RealSpace3D_ReflectionCoefficients>
+      <ReflectionMaterial>Heavy Curtain</ReflectionMaterial>
+      <Coefficient>0.30</Coefficient>
+  </RealSpace3D_ReflectionCoefficients>
+  <RealSpace3D_ReflectionCoefficients>
+      <ReflectionMaterial>Mineral Wool</ReflectionMaterial>
+      <Coefficient>0.25</Coefficient>
+  </RealSpace3D_ReflectionCoefficients>
+  <RealSpace3D_ReflectionCoefficients>
+      <ReflectionMaterial>Fiberglass</ReflectionMaterial>
+      <Coefficient>0.20</Coefficient>
+  </RealSpace3D_ReflectionCoefficients>
+  <RealSpace3D_ReflectionCoefficients>
+      <ReflectionMaterial>Polyurethane Foam</ReflectionMaterial>
+      <Coefficient>0.15</Coefficient>
+  </RealSpace3D_ReflectionCoefficients>
+  <RealSpace3D_ReflectionCoefficients>
+      <ReflectionMaterial>Air</ReflectionMaterial>
+      <Coefficient>0.0</Coefficient>
+  </RealSpace3D_ReflectionCoefficients>
+  <RealSpace3D_ReflectionCoefficients>
+      <ReflectionMaterial>Grass</ReflectionMaterial>
+      <Coefficient>0.4</Coefficient>
+  </RealSpace3D_ReflectionCoefficients>
+  <RealSpace3D_ReflectionCoefficients>
+      <ReflectionMaterial>Dirt</ReflectionMaterial>
+      <Coefficient>0.3</Coefficient>
+  </RealSpace3D_ReflectionCoefficients>
+  <RealSpace3D_ReflectionCoefficients>
+      <ReflectionMaterial>Gravel</ReflectionMaterial>
+      <Coefficient>0.7</Coefficient>
+  </RealSpace3D_ReflectionCoefficients>
+  <RealSpace3D_ReflectionCoefficients>
+      <ReflectionMaterial>Sand</ReflectionMaterial>
+      <Coefficient>0.55</Coefficient>
+  </RealSpace3D_ReflectionCoefficients>
+  <RealSpace3D_ReflectionCoefficients>
+      <ReflectionMaterial>Chrome</ReflectionMaterial>
+      <Coefficient>0.95</Coefficient>
+  </RealSpace3D_ReflectionCoefficients>
+  <RealSpace3D_ReflectionCoefficients>
+      <ReflectionMaterial>Metal</ReflectionMaterial>
+      <Coefficient>0.95</Coefficient>
+  </RealSpace3D_ReflectionCoefficients>  
+</ArrayOfRealSpace3D_ReflectionCoefficients>

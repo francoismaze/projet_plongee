@@ -631,6 +631,7 @@ GameObject:
   - component: {fileID: 1088908106}
   - component: {fileID: 1088908105}
   - component: {fileID: 1088908104}
+  - component: {fileID: 1088908107}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -717,6 +718,41 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &1088908107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088908102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1773642725, guid: 6995e5f4125da4bd183d041c1e88ea91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eAMBI_FORMAT_Type: 1
+  eAMBI_CHANNELCOUNT_Type: 4
+  bUseCustomHRTFSelection: 0
+  bSuggestHRTFInterp: 0
+  fHeadRadius: 0.1
+  fNeckHeight: 0.05
+  fTorsoRadius: 0.23
+  fHeadRadius_Default: 0.1
+  fNeckHeight_Default: 0.05
+  fTorsoRadius_Default: 0.23
+  fPrevUnitScaleFactor: 1
+  fUnitScaleFactor: 1
+  nDeepLogging: 0
+  nHRTFSelected: 0
+  nLoggingOn: 0
+  sHRTFDescriptions:
+  - Default
+  - Bassy_LG_Ear
+  - Bassy_SM_Ear
+  - Thin_LG_Ear
+  - Thin_SM_Ear
+  eUNITType: 1
+  theLicenseType: 0
 --- !u!1 &1284621283
 GameObject:
   m_ObjectHideFlags: 0
@@ -790,110 +826,14 @@ GameObject:
   - component: {fileID: 1552522524}
   - component: {fileID: 1552522523}
   - component: {fileID: 1552522522}
-  - component: {fileID: 1552522521}
-  m_Layer: 0
+  - component: {fileID: 1552522526}
+  m_Layer: 9
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!82 &1552522521
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1552522520}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 343d11086d81c5b418b4bc24457effef, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 1
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0.055555556
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!135 &1552522522
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -968,6 +908,79 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1552522526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1552522520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 960884537, guid: 6995e5f4125da4bd183d041c1e88ea91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eAMBISONICS_Type: 0
+  eATTENUATION_Type: 0
+  theBuildTarget: 3
+  bOptimize: 1
+  bShowAdvance: 0
+  bShowAudioClips: 1
+  bShowPlayFrom: 1
+  bShow3DProperties: 1
+  bShowAdvanceOptions: 1
+  bShowOptimization: 1
+  bShowMinRange: 1
+  bShowMaxRange: 1
+  bFastSpatState_Android: 
+  bFastSpatState_Desktop: 00
+  bFastSpatState_iOS: 
+  bUnityVersion_NAP: 0
+  fAdvanceUnitScaleFactor: 1
+  fSoundRange_MaxDist: 25
+  fSoundRange_MinDist: 0.5
+  sSourceName: Sphere
+  sAudioClipPath:
+  - "Assets/Sons r\xE9els ponctuels/Baleine .wav"
+  sAudioClipLength:
+  - 00:00:07
+  theSoundOptions:
+  - fVolume: 0.547
+    fOriginalVolume: 0.547
+    fPitch: 1
+    fDopplerLevel: 1
+    bFastSpatialization: 0
+    bLoopSound: 1
+    bMuteSound: 0
+    bPlayOnStart: 1
+    bPlay3DSound: 1
+    bPlayAmbisonics: 0
+    bCombineAmbisonics: 0
+    bCombineAmbisonicsType: 1
+    bUseMicrophone: 0
+    bShowSoundOptions: 1
+    bWasPlaying: 0
+    bOptimizePauseOn: 0
+    bOptimizeResumeOn: 0
+    bFXReverb: 0
+    fFXReverbLength: 0
+    eFXReverbState: 1
+    bVirtualRoomChange_MuteSound: 0
+    bDopplerDamper: 0
+    bUseHRTFInterpolation: 0
+    theAudioMixerGroup: {fileID: 0}
+    lfDirectArrival: 0
+    lfEarlyReflections: 0
+    lfLateTail: 0
+  nNodeCount: 1
+  nShownClips: 1
+  nPlayFromHours: 0
+  nPlayFromMins: 0
+  nPlayFromSecs: 0
+  fPlayFromLength: 0
+  rsAudioClips:
+  - {fileID: 8300000, guid: 343d11086d81c5b418b4bc24457effef, type: 3}
+  tempAudioClips: []
 --- !u!1001 &1677820173
 PrefabInstance:
   m_ObjectHideFlags: 0
